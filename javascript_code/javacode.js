@@ -1,7 +1,7 @@
 //practice 1
 const alertwelcome=()=>{
     alert("Welcome to my site!")
-    document.getElementById('hellotxt').innerHTML="<b>DON'T miss the Black Friday!</b>"
+    document.getElementById('hellotxt').innerHTML="<b>بلک فرایدی را از دست ندهید!</b>"
     document.getElementById('hellotxt').style.color='red'
     
 }
@@ -28,7 +28,8 @@ const old_price=()=>{
             old:"4000000",
         }
     }
-    document.getElementById("buttontxt").style.color='red'
-    document.getElementById("buttontxt").style.textDecoration='line-through'
+    
     document.getElementById('spantxt').innerText=product.prices.old
+    document.getElementById("spantxt").style.color='red'
+    document.getElementById("spantxt").style.textDecoration='line-through'
 }
